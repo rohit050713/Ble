@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+   android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:padding="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/blue_gradient"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Are you sure you want to logout ?"
+                android:textSize="@dimen/_15ssp"
+                android:textColor="@android:color/black"
+
+                />
+            <LinearLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btn_yes"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textSize="@dimen/_15ssp"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/btn_login_bg"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    />
+                <Button
+                    android:id="@+id/btn_no"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textSize="@dimen/_15ssp"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/btn_login_bg"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/close_icon"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:src="@drawable/ic_baseline_close_24"
+            android:background="@drawable/circle"
+            android:layout_gravity="top|right"
+            />
+    </FrameLayout>
+
+</LinearLayout>

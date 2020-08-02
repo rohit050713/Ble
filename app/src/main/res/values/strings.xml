@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BLE</string>
+
+    <string name="enter_email">Enter the email address</string>
+    <string name="error_email">*Please enter the valid email address.</string>
+    <string name="login"><b>Login to BLE</b></string>
+    <string name="enter_password">Enter the password</string>
+    <string name="error_password">*Please enter the valid password.</string>
+    <string name="btn_login">Login</string>
+    <string name="dont">"Don't have an account ?"</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="email">Email Address</string>
+    <string name="name">Name</string>
+    <string name="phone">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="create">Sign Up</string>
+    <string name="have_account">Have an account?</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="error_phone">*Please enter the valid mobile number.</string>
+    <string name="create_account">Sign Up to BLE</string>
+    <string name="extension">BLE</string>
+    <string name="logout">Logout</string>
+    <string name="address">Address</string>
+    <string name="Name">Name</string>
+    <string name="name_error">*Please enter name of min len: 4.</string>
+    <string name="error_address">*Please enter the valid address.</string>
+    <string name="contains">*Must contain(1 upper, 1 lower, 1 special character &amp; a number. Min. len: 8. ).</string>
+
+    <string name="submit">Submit</string>
+    <string name="ble">BLE</string>
+    <string name="scan">Scan</string>
+    <string name="available">Available Devices</string>
+    <string name="paired">Paired Devices</string>
+    <string name="send_message">Send Message</string>
+    <string name="connected">Connected</string>
+    <string name="send">Send</string>
+    <string name="receive">Received Messages</string>
+    <string name="send_messages">Send Messages</string>
+</resources>

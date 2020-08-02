@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "412649539504",
+    "firebase_url": "https://bluetooth-4284b.firebaseio.com",
+    "project_id": "bluetooth-4284b",
+    "storage_bucket": "bluetooth-4284b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412649539504:android:2b165f9e146aa16d8ab875",
+        "android_client_info": {
+          "package_name": "com.www.ble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412649539504-v6e3ifgvqofcnk470q1iudre2t5mbuse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDJoHJrqmHRR90Is4TCKQDq1FhaI24bb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412649539504-v6e3ifgvqofcnk470q1iudre2t5mbuse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

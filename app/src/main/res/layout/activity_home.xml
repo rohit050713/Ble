@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="#CD000000"
+
+
+
+            >
+           <androidx.appcompat.widget.Toolbar
+               android:id="@+id/toolbar"
+               android:layout_width="match_parent"
+               android:layout_height="?attr/actionBarSize"
+               android:background="@android:color/holo_blue_bright"
+               app:title="@string/ble"
+               />
+
+
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:id="@+id/tv_sendmessage"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send_messages"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_blue_dark"
+                />
+
+                <ListView
+                    android:paddingBottom="@dimen/_25sdp"
+                    android:id="@+id/chat_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:divider="@android:color/holo_blue_bright"
+                    android:dividerHeight="@dimen/_1sdp"
+                    android:footerDividersEnabled="true"
+                    android:layout_weight="1"
+
+                    />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <EditText
+
+            android:id="@+id/et_msg"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_bg"
+            android:inputType="text|textMultiLine"
+            android:maxLength="100"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_marginStart="@dimen/_5sdp"
+            android:id="@+id/btn_send"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_login_bg"
+            android:textSize="@dimen/_15ssp"
+            android:text="@string/send"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
